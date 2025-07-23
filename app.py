@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import joblib
 from pathlib import Path
+from ui import local_css
 
-from utils.ui import local_css
 
 from utils.data import load_data, load_or_train
 from utils.db import init_db, insert_record
